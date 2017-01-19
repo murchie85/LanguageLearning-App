@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        //-----------------------ON CLICK LISTENER NUMBERS ----------------------------------//
+
         // Find the View that shows the numbers category
         TextView numbers = (TextView) findViewById(R.id.numbers); //android id
 
@@ -32,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(numbersIntent);
             }
         });
+
+
+
+        //-----------------------ON CLICK LISTENER FAMILY ----------------------------------//
 
         // Find the View that shows the family category
         TextView family = (TextView) findViewById(R.id.family);
@@ -49,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //-----------------------ON CLICK LISTENER COLORS ----------------------------------//
+
         // Find the View that shows the colors category
         TextView colors = (TextView) findViewById(R.id.colors);
 
@@ -64,6 +72,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(colorsIntent);
             }
         });
+
+        //-----------------------ON CLICK LISTENER PHRASES ----------------------------------//
+
 
         // Find the View that shows the phrases category
         TextView phrases = (TextView) findViewById(R.id.phrases);
