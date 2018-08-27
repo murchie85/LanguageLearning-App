@@ -59,7 +59,7 @@ public class Word {
      * Get the default translation of the word.
      */
     public String getDefaultTranslation() {
-        return mDefaultTranslation;
+            return mDefaultTranslation;
     }
 
     /**
@@ -85,7 +85,7 @@ public class Word {
         return mAudioResourceId;
     }
 
-    // allows logging (generate --> string)
+    // allows logging (generate --> string)setOnClickListener
     @Override
     public String toString() {
         return "Word{" +
